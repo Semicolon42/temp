@@ -57,7 +57,7 @@ if (_boost_pressed and boost_recoil_time <= 0) {
 	boost_decay_time = boost_decay_time_max
 	boost_time = boost_time_max
 	boost_recoil_time = boost_time_max + boost_decay_count * boost_decay_span
-	boost_recoil_temp_max = boost_time_max + boost_decay_count * boost_decay_span
+	boost_recoil_time_max = boost_time_max + boost_decay_count * boost_decay_span
 }
 
 ////////////////////////////////////////
@@ -100,3 +100,16 @@ if (diff_y > 0) y_speed -= sign(y_speed) * brake_natural * diff_y
 
 x += x_speed
 y += y_speed
+
+
+
+////////////////////////////////////////////
+////////////////////////////////////////////
+
+if(_shoot_pressed and bullet == noone) {
+     bullet = instance_create_depth(x,y, -1, obj_bullet)	
+	 bullet.direction = image_angle
+	 bullet.speed = bullet_speed
+	 bullet.life = bullet_life
+	 bullet.ship = self
+}

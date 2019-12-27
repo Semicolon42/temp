@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0ccb43a6-1cfe-49c9-bba3-5b69ec9a80a3",
+            "Value": {
+                "id": "976f3d9e-3de8-41b1-bf35-d84962884178",
+                "resourcePath": "objects\/obj_bullet\/obj_bullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "153cd26a-fa00-45cd-86c6-871ce906b1db",
             "Value": {
                 "id": "3ce70151-21e1-450a-b7c3-4e5fc91f2bfb",
@@ -44,6 +52,14 @@
                 "id": "cf276706-f588-4980-8737-c97bee0dbe01",
                 "resourcePath": "views\/15e45787-201f-4cf2-800f-27c1a5226605.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1fff5ecb-27e0-49d9-94ac-0d0391f6b173",
+            "Value": {
+                "id": "482a97aa-f3f2-4392-b006-609fc565123f",
+                "resourcePath": "scripts\/draw_player_hud\/draw_player_hud.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -146,7 +162,7 @@
             "Key": "9ceac2ec-aa1a-48d2-b8dd-3165e283f67b",
             "Value": {
                 "id": "e87e3fc1-ae87-4cae-add9-f1eace5c4ecf",
-                "resourcePath": "objects\/object0\/object0.yy",
+                "resourcePath": "objects\/obj_player_ship\/obj_player_ship.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -264,7 +280,7 @@
         }
     ],
     "script_order": [
-        
+        "1fff5ecb-27e0-49d9-94ac-0d0391f6b173"
     ],
     "tutorial": ""
 }
